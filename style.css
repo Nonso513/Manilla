@@ -392,24 +392,23 @@ h2.mm {
         flex-direction: column;
         position: absolute;
         top: 50px;
-        right: -200%;
+        left: -200%;
         width: 25%;
-        height: 50vh;
+        height: 40vh;
         transition: 0.5s;
-        background-color:#333333b9;
-        float: right;
-        text-align: center;  
-        margin-top: 47px;   
+        background-color:  #333333b9;
+        float: left;
+        text-align: center;     
     }
     .menu li{
         margin: 5px;
         display: inline;
-        text-align: left;
+        text-align: center;
         line-height: 20px;
         float: left;
     }
     .menu.active{
-        right: 0;
+        left: 0;
     }
 }
 
