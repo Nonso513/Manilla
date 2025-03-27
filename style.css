@@ -4,6 +4,7 @@ body {
     font-family: serif;
     font-style: sans-serif;
     background-color: rgb(218, 233, 203);
+    overflow: hidden;
 }
 
 /* Logo Style */
