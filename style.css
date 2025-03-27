@@ -1,0 +1,415 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: serif;
+    font-style: sans-serif;
+    background-color: rgb(218, 233, 203);
+}
+
+/* Logo Style */
+.logo {
+    position: relative;
+    margin-left: 20px;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Navbar Styles */
+.navbar {
+    background: #333333b9;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    position: relative;
+    margin: 0 10px;
+    white-space: nowrap;
+    color: white;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+/* Mega Menu Styles */
+.mega-menu {
+    position: absolute;
+    top: 100%;
+    left: -50px;
+    width: 600px;
+    background: white;
+    display: none;
+    padding: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mega-content {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 250px;
+}
+
+.mega-column {
+    width: 50%;
+}
+
+.mega-column h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.mega-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.mega-column li {
+    margin-bottom: 8px;
+}
+
+.mega-column a {
+    color: #555;
+    text-decoration: none;
+}
+
+/* Show Mega Menu on Hover */
+.dropdown:hover .mega-menu {
+    display: block;
+}
+
+/* Mobile Responsive Styles */
+.btn {
+    display: none;
+    font-size: 24px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.one {
+    width: 100%;
+    height: 100vh;
+}
+
+h2.mm {
+    justify-content: center;
+    justify-self: center;
+}
+
+/*for the first section*/
+.flt{
+    float: right;
+}
+
+.con{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: px;
+    padding: 20px;
+   
+}
+.von{
+    background-color: #dd8e3469;
+}
+
+.con3{
+    margin-left: 500px;
+}
+.rack{
+    display: flex;
+    flex-direction: column;
+}
+
+.rack3{
+    display: block;
+}
+
+.text{
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.seco{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.seco1{
+    margin-top: 20px;
+}
+.btn1{
+    margin-top: 20px;
+}
+
+  
+
+/*for the second section*/
+.myh2{
+    justify-content: center;
+    justify-self: center;
+}
+
+
+
+.beauty {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* Center the images */
+    position: relative;
+    justify-self: center;
+    align-content: center;
+    gap: 50px; /* Add spacing between the boxes */
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.beauty .box {
+    border-radius: 8px; /* Rounded corners for the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow to the box */
+    overflow: hidden; /* Ensure the image stays within the box */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.beauty .box:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+}
+
+.myh22{
+    justify-content: center;
+    justify-self: center;
+}
+
+.ex1{
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
+    position: relative;
+    align-content: center;
+    align-items: center;
+    margin-left: 420px;
+    margin-right: 420px;
+}
+.ex1 .box1 {
+    border-radius: 8px; /* Rounded corners for the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow to the box */
+    overflow: hidden; /* Ensure the image stays within the box */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.ex1 .box1:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+}
+
+
+
+.myh222{
+    justify-content: center;
+    justify-self: center;
+}
+
+.ex2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    align-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: #dd8e3469; 
+}
+.ex2 .w1 {
+    border-radius: 8px; /* Rounded corners for the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow to the box */
+    overflow: hidden; /* Ensure the image stays within the box */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.ex2 .w1:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+}
+
+.exman {
+    position: relative;
+    bottom: 110px;
+    left: 30px;
+    color: white;
+}
+
+.w1{
+    margin: 20px;
+}
+.us1{
+    justify-content: center;
+    justify-self: center;
+}
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    align-items: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.contact1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: rgb(10, 49, 27);
+    color: white;
+}
+.man1{
+    margin-left: 30px;
+}
+.socialss{
+    background-color: ;
+    padding: 2px;
+}
+.ft1{
+    justify-content: center;
+    justify-self: center;
+}
+
+/* Button Style */
+.scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.scrollToTopBtn:hover {
+    background-color: #45a049;
+}
+
+/* Show button when scrolling down */
+
+.scrollToTopBtn.show {
+    opacity: 1;
+}
+
+
+@media (max-width: 768px){
+    .con {
+        display: block;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        justify-self: center;
+    }
+    .seco {
+        display: block;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        justify-self: center;
+    }
+        
+    .beauty {
+        display: block;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        justify-self: center;
+    }
+    .ex1 {
+        display: block;
+        text-align: center;
+        align-items: center;
+        justify-content: left;
+        justify-self: center;
+    }
+    .ex2 {
+        display: block;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .contact {
+        display: block;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        justify-self: center;
+    }
+    .contact1 {
+        display: block;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .exman{
+        display: block;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.btn{
+    display: none;
+}
+@media(max-width: 768px){
+    .btn{
+        display: flex;
+    }
+    .menu {
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        right: -200%;
+        width: 25%;
+        height: 50vh;
+        transition: 0.5s;
+        background-color:#333333b9;
+        float: right;
+        text-align: center;  
+        margin-top: 47px;   
+    }
+    .menu li{
+        margin: 5px;
+        display: inline;
+        text-align: left;
+        line-height: 20px;
+        float: left;
+    }
+    .menu.active{
+        right: 0;
+    }
+}
+
