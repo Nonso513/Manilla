@@ -393,12 +393,13 @@ h2.mm {
         position: absolute;
         top: 50px;
         left: -200%;
-        width: 25%;
+        width: 100%;
         height: 40vh;
         transition: 0.5s;
         background-color:  #333333b9;
         float: left;
-        text-align: center;     
+        text-align: center; 
+        margin-top: 46px;
     }
     .menu li{
         margin: 5px;
