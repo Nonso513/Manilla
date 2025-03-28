@@ -4,7 +4,7 @@ body {
     font-family: serif;
     font-style: sans-serif;
     background-color: rgb(218, 233, 203);
-    overflow: hidden;
+    overflow: none;
 }
 
 /* Logo Style */
@@ -53,22 +53,24 @@ body {
 .mega-menu {
     position: absolute;
     top: 100%;
-    left: -50px;
-    width: 600px;
-    background: white;
+    left: -100px;
+    width: 260px;
+    background: rgba(255, 255, 255, 0.89);
     display: none;
     padding: 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
 .mega-content {
     display: flex;
     justify-content: space-between;
-    margin-right: 250px;
+    margin-right: 25px;
+    gap: 1px;
 }
 
 .mega-column {
-    width: 50%;
+    width: 40%;
 }
 
 .mega-column h3 {
@@ -271,11 +273,11 @@ h2.mm {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    justify-self: center;
     position: relative;
     align-items: center;
     align-items: center;
-    margin-left: 400px;
-    margin-right: 400px;
+    gap: 10px;
 }
 .contact1{
     display: flex;
@@ -289,7 +291,6 @@ h2.mm {
     margin-left: 30px;
 }
 .socialss{
-    background-color: ;
     padding: 2px;
 }
 .ft1{
@@ -325,7 +326,7 @@ h2.mm {
 }
 
 
-@media (max-width: 900px){
+@media (max-width: 768px){
     .con {
         display: block;
         text-align: center;
@@ -342,18 +343,30 @@ h2.mm {
     }
         
     .beauty {
-        display: block;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        justify-self: center;
+        display: flex;
+        flex-wrap: wrap; /* Allow items to wrap to the next line */
+        justify-content: center; /* Center the items */
+        align-items: center; /* Align items vertically */
+        gap: 20px; /* Add spacing between the boxes */
+        margin: 10px auto; /* Center the beauty section and add vertical spacing */
+        padding: 10px; /* Add padding for better spacing */
+    }
+
+    .beauty .box {
+        width: 100%; /* Make each box take full width on mobile */
+        max-width: 300px; /* Limit the maximum width of each box */
+        margin: 0 auto; /* Center each box horizontally */
+    }
+
+    .beauty .box img {
+        width: 100%; /* Ensure the image fills the box */
+        height: auto; /* Maintain aspect ratio */
     }
     .ex1 {
         display: block;
         text-align: center;
         align-items: center;
         justify-content: left;
-        justify-self: center;
     }
     .ex2 {
         display: block;
@@ -367,7 +380,6 @@ h2.mm {
         text-align: center;
         align-items: center;
         justify-content: center;
-        justify-self: center;
     }
     .contact1 {
         display: block;
@@ -385,7 +397,7 @@ h2.mm {
 .btn{
     display: none;
 }
-@media(max-width: 900px){
+@media(max-width: 768px){
     .btn{
         display: flex;
     }
@@ -399,8 +411,8 @@ h2.mm {
         transition: 0.5s;
         background-color:  #333333b9;
         float: left;
-        text-align: center; 
-        margin-top: 46px;
+        text-align: center;   
+        margin-top: 46px;  
     }
     .menu li{
         margin: 5px;
